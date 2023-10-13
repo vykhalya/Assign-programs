@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    margin: 0%;
+    align-items: center;
+    padding: auto;
+}
+.container{
+    border:3px solid blue;
+    width: 50%;
+    padding: 10px;
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color:black;
+    background-color:lavender;
+    font-weight: initial;
+    height: 80%;
+}
+.form-group{
+    text-align: left;
+}
+#first-name{
+    text-align:left;
+    width:65%;
+}
+#last-name{
+    width:65%
+}
+#dob{
+    width:40%;
+}
+.form-group #submit-button:hover{
+    background-color: rgb(49, 224, 102);
+    
+}
+.form-group #reset-button:hover{
+    background-color:mediumorchid;
+    
+}
+.form-group #submit-button{
+    position: absolute;
+    bottom: 28%;
+    left:38%;
+    font-size: large;
+    
+}
+.form-group #reset-button{
+    position: absolute;
+    bottom: 28%;
+    left:50%;
+    font-size: large;
+    
+}
